@@ -40,7 +40,7 @@ app.post("/sendMail", (req, res) => {
         to: toMails,
         cc: bccMails,
         bcc: ccMails,
-        from: 'praveenk.kasireddy@gmail.com',
+        from: 'yashwanthmiryala172@gmail.com',
         subject: 'Sending with SendGrid is Fun',
         html: req.body.emailMessage,
         attachments: req.body.attachments
